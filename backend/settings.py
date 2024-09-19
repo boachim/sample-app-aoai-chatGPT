@@ -41,9 +41,9 @@ class _UiSettings(BaseSettings):
         env_ignore_empty=True
     )
 
-    title: str = "App Sensei"
-    logo: Optional[str] = "/assets/sensei.svg"
-    chat_logo: Optional[str] = "/assets/sensei.svg"
+    title: str = "Contoso"
+    logo: Optional[str] = None
+    chat_logo: Optional[str] = None
     chat_title: str = "Start chatting"
     chat_description: str = "This chatbot is configured to answer your questions"
     favicon: str = "/favicon.ico"
