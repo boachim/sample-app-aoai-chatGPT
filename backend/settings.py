@@ -42,8 +42,8 @@ class _UiSettings(BaseSettings):
     )
 
     title: str = "App Sensei"
-    logo: Optional[str] = "/sensei.png"
-    chat_logo: Optional[str] = "/sensei.png"
+    logo: Optional[str] = "/assets/sensei.png"
+    chat_logo: Optional[str] = "/assets/sensei.png"
     chat_title: str = "Start chatting"
     chat_description: str = "This chatbot is configured to answer your questions"
     favicon: str = "/favicon.ico"
